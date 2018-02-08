@@ -6,6 +6,6 @@
 #The #parrot method should have a default argument of "Squawk!"
 
 def parrot(says = "Squawk")
-  puts "{says}"
+  puts says
   return says
 end
