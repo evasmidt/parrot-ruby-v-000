@@ -5,7 +5,7 @@
 #puts out that string and return the string at the end of the method.
 #The #parrot method should have a default argument of "Squawk!"
 
-def parrot(says = "Squawk")
+def parrot(says = "Squawk!")
   puts says
   return says
 end
