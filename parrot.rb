@@ -7,5 +7,5 @@
 
 def parrot(says = "Squawk")
   puts "{says}"
-  return "Squawk"
+  return says
 end
